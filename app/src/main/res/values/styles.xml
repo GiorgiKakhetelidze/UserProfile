@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="blue_rect">
+        <item name="android:layout_width">@dimen/blue_btn_width</item>
+        <item name="android:layout_height">@dimen/blue_btn_height</item>
+        <item name="android:layout_marginTop">@dimen/blue_btn_top_margin</item>
+        <item name="android:background">@color/color_btn_blue</item>
+    </style>
+</resources>

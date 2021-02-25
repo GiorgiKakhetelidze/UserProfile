@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="blue_btn_width">43dp</dimen>
+    <dimen name="blue_btn_height">44dp</dimen>
+    <dimen name="blue_btn_top_margin">10dp</dimen>
+    <dimen name="follow_btn_width">185dp</dimen>
+    <dimen name="chat_bell_marg_right">20dp</dimen>
+    <dimen name="chat_bell_fromTop">10dp</dimen>
+    <dimen name="margin_top_numbers">65dp</dimen>
+    <dimen name="bottom_marg_imgs">164dp</dimen>
+    <dimen name="margin_start_img_loc_items">65dp</dimen>
+</resources>

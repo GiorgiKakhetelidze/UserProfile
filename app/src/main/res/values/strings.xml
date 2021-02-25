@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">UserProfilePic</string>
+    <string name="follow">+ Follow</string>
+    <string name="_2">2</string>
+    <string name="image_btn_images">Images</string>
+    <string name="_32_img_btn">32+</string>
+    <string name="location_txt">Floral Park, New York, U.S.</string>
+    <string name="post_txt">Robert Mapplethorpe was an American photographer, known for his sensitive yet blunt treatment of controversial subject-matter in the large-scale, highly stylized black and white medium of photography. His work featured an array of subjects, including celebrity portraits, male and female nudes, self-portraits and still-life images of flowers. His most controversial work is that of the underground BDSM scene in the late 1960s and early 1970s of New York City. The homoeroticism of this work fuelled a national debate over the public funding of controversial artwork.</string>
+    <string name="posts_quantity">1,922</string>
+    <string name="posts_txt">posts</string>
+    <string name="followers_quantity">3,875</string>
+    <string name="followers_txt">follwers</string>
+    <string name="following_quantity">1,922</string>
+    <string name="following_txt">follwing</string>
+</resources>

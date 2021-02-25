@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.847" height="14.847" viewBox="0 0 14.847 14.847">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="14.847" height="14.847" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Bell" clip-path="url(#clip-path)">
+    <path id="Path_484" data-name="Path 484" d="M14.847,10.558,13.362,4.7A6.114,6.114,0,0,0,1.485,4.619L0,10.558v1.815a.779.779,0,0,0,.825.825H5.114a2.441,2.441,0,0,0,4.619,0h4.289a.779.779,0,0,0,.825-.825V10.558Zm-1.65.99H1.65v-.742L3.134,5.031a4.411,4.411,0,0,1,8.578,0L13.2,10.805Z" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

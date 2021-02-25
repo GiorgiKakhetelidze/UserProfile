@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/profile_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/image_main"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineMid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="318dp" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/settings"
+        android:layout_width="@dimen/blue_btn_width"
+        android:layout_height="@dimen/blue_btn_height"
+        android:background="@color/white"
+        android:src="@drawable/ic_hamburger"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/message"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="@dimen/chat_bell_fromTop"
+        android:layout_marginEnd="@dimen/chat_bell_marg_right"
+        android:background="@drawable/ic_chat"
+        app:layout_constraintEnd_toStartOf="@+id/bell"
+        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/bell"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="@dimen/chat_bell_fromTop"
+        android:layout_marginEnd="@dimen/chat_bell_marg_right"
+        android:background="@drawable/ic_bell"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/circle"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/ic_ellipse_71"
+        android:gravity="center"
+        android:text="@string/_2"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/blueHeart"
+        style="@style/blue_rect"
+        android:src="@drawable/ic_heart"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidelineMid" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/blueBtn1"
+        style="@style/blue_rect"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blueHeart" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/blueBtn2"
+        style="@style/blue_rect"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blueBtn1" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/blueBtn3"
+        style="@style/blue_rect"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blueBtn2" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/blueBtn4"
+        style="@style/blue_rect"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blueBtn3" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/blueBtnFollow"
+        android:layout_width="@dimen/follow_btn_width"
+        android:layout_height="@dimen/blue_btn_height"
+        android:layout_marginTop="@dimen/blue_btn_top_margin"
+        android:background="@color/color_btn_blue"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="@string/follow"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidelineMid" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/postNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="@dimen/margin_top_numbers"
+        android:fontFamily="@font/roboto"
+        android:text="@string/posts_quantity"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintTop_toTopOf="@+id/guidelineMid" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/postStr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_light"
+        android:text="@string/posts_txt"
+        android:textColor="@color/text_post_color"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="@+id/postNum"
+        app:layout_constraintStart_toStartOf="@+id/postNum"
+        app:layout_constraintTop_toBottomOf="@+id/postNum" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/followersNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="@dimen/margin_top_numbers"
+        android:fontFamily="@font/roboto"
+        android:text="@string/followers_quantity"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/postNum"
+        app:layout_constraintTop_toTopOf="@+id/guidelineMid" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/followersStr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_light"
+        android:text="@string/followers_txt"
+        android:textColor="@color/text_post_color"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="@+id/followersNum"
+        app:layout_constraintStart_toStartOf="@+id/followersNum"
+        app:layout_constraintTop_toBottomOf="@+id/followersNum" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/followingNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="@dimen/margin_top_numbers"
+        android:fontFamily="@font/roboto"
+        android:text="@string/following_quantity"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/followersNum"
+        app:layout_constraintTop_toTopOf="@+id/guidelineMid" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/followingStr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_light"
+        android:text="@string/following_txt"
+        android:textColor="@color/text_post_color"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="@+id/followingNum"
+        app:layout_constraintStart_toStartOf="@+id/followingNum"
+        app:layout_constraintTop_toBottomOf="@+id/followingNum" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/imageBtn"
+        android:layout_width="70dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/color_btn_blue"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="@string/_32_img_btn"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintTop_toTopOf="@+id/guidelineMid" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/imageBtnTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:text="@string/image_btn_images"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageBtn"
+        app:layout_constraintEnd_toEndOf="@+id/imageBtn"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="@+id/imageBtn"
+        app:layout_constraintTop_toTopOf="@+id/imageBtn"
+        app:layout_constraintVertical_bias="0.729" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/imgHuman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/human"
+        app:layout_constraintStart_toEndOf="@+id/imageBtn"
+        app:layout_constraintTop_toTopOf="@+id/guidelineMid" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/imgFlower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/image_flower"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imgHuman"
+        app:layout_constraintTop_toTopOf="@+id/guidelineMid" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/locationTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:text="@string/location_txt"
+        android:textColor="@color/location_txt"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/locationPin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toEndOf="@+id/locationPin"
+        app:layout_constraintTop_toTopOf="@+id/locationPin" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/locationPin"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="@dimen/margin_start_img_loc_items"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_pin"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintTop_toBottomOf="@+id/imageBtn" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/postTxt"
+        android:layout_width="305dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="256dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="left"
+        android:text="@string/post_txt"
+        android:textColor="@color/text_post_color"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintTop_toTopOf="@+id/guidelineMid" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="86dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

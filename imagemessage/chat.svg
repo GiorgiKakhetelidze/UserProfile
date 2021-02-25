@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.833" height="14.022" viewBox="0 0 15.833 14.022">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="15.833" height="14.022" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="chat" clip-path="url(#clip-path)">
+    <path id="Path_483" data-name="Path 483" d="M15.718,12.778a.841.841,0,0,1-.792,1.244H4.41A4.321,4.321,0,0,1,0,9.725V4.41A4.345,4.345,0,0,1,4.41,0H9.725a4.416,4.416,0,0,1,4.41,4.41V9.5Zm-3.279-2.714a.415.415,0,0,1-.113-.339V4.41a2.559,2.559,0,0,0-2.6-2.6H4.41a2.559,2.559,0,0,0-2.6,2.6V9.725a2.559,2.559,0,0,0,2.6,2.6H13.57Z" fill="#fff"/>
+  </g>
+</svg>
